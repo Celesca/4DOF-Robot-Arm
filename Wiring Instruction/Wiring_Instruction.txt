@@ -1,0 +1,17 @@
+Ps2x adapter
+5v -> 3.3 v
+DATA -> 12   
+CMD -> 11
+CLK -> 13
+ATK -> 10
+GND -> GND
+
+PWM 
+VCC -> 5 v
+SDA -> A4
+SCL -> A5
+GND -> GND
+
+const int stepPin = 6;  //PUL -Pulse
+const int dirPin = 7; //DIR -Direction
+const int enPin = 8;  //ENA -Enable
